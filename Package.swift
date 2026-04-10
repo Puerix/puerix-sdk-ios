@@ -9,19 +9,14 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "PuerixSDK",
-            targets: ["PuerixSDK"]
+            name: "PuerixAuth",
+            targets: ["PuerixAuth"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "PuerixSDK",
-            path: "PuerixSDK.xcframework"
+            name: "PuerixAuth",
+            path: "PuerixAuth.xcframework"
         ),
     ]
 )
-
-// NOTE: Google ML Kit does not support Swift Package Manager.
-// Install GoogleMLKit/FaceDetection separately via CocoaPods:
-//
-//   pod 'GoogleMLKit/FaceDetection', '~> 6.0'

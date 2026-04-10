@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.swift_version    = '5.7'
 
   # Closed-source binary — no Swift source included
-  s.vendored_frameworks = 'PuerixSDK.xcframework'
+  s.vendored_frameworks = 'PuerixAuth.xcframework'
 
   # Runtime dependency
   s.dependency 'GoogleMLKit/FaceDetection', '~> 6.0'

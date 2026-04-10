@@ -1,0 +1,100 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PuerixAuth
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AVFoundation
+import CoreGraphics
+import Foundation
+import MLKitFaceDetection
+import MLKitVision
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public enum PuerixEnvironment : Swift.Int {
+  case development
+  case production
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class PuerixConfig : ObjectiveC.NSObject {
+  @objc final public let apiKey: Swift.String
+  @objc final public let environment: PuerixAuth.PuerixEnvironment
+  @objc final public let baseUrl: Swift.String
+  @objc final public let timeout: Foundation.TimeInterval
+  @objc final public let enableLogging: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(apiKey: Swift.String, environment: PuerixAuth.PuerixEnvironment = .production, baseUrl: Swift.String? = nil, timeout: Foundation.TimeInterval = 30, enableLogging: Swift.Bool = false)
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PuerixLivenessResult : ObjectiveC.NSObject {
+  @objc final public let isComplete: Swift.Bool
+  @objc public var isApproved: Swift.Bool
+  @objc final public let captures: [Swift.String : UIKit.UIImage]
+  @objc final public let captureData: [Swift.String : Foundation.Data]
+  @objc deinit
+}
+@objc public enum PuerixLivenessStep : Swift.Int, Swift.CaseIterable {
+  case lookAtCamera = 0
+  case blinkEyes = 1
+  case turnHeadLeft = 2
+  case turnHeadRight = 3
+  public static let defaultSteps: [PuerixAuth.PuerixLivenessStep]
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias AllCases = [PuerixAuth.PuerixLivenessStep]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [PuerixAuth.PuerixLivenessStep] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PuerixLivenessViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var onComplete: ((PuerixAuth.PuerixLivenessResult) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public init(steps: [PuerixAuth.PuerixLivenessStep] = PuerixLivenessStep.defaultSteps, stepDuration: Foundation.TimeInterval = 10)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class PuerixSDK : ObjectiveC.NSObject {
+  @objc public static let shared: PuerixAuth.PuerixSDK
+  @objc public var isInitialized: Swift.Bool {
+    @objc get
+  }
+  @objc public func initialize(config: PuerixAuth.PuerixConfig)
+  @objc public func dispose()
+  public func startLiveness(from viewController: UIKit.UIViewController, steps: [PuerixAuth.PuerixLivenessStep] = PuerixLivenessStep.defaultSteps, stepDuration: Foundation.TimeInterval = 3, completion: @escaping (PuerixAuth.PuerixLivenessResult) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func startVerification(from viewController: UIKit.UIViewController, subject: Swift.String, ageLimit: Swift.Int = 18, steps: [PuerixAuth.PuerixLivenessStep] = PuerixLivenessStep.defaultSteps, stepDuration: Foundation.TimeInterval = 3, callbackUrl: Swift.String? = nil, cancelUrl: Swift.String? = nil, completion: @escaping (PuerixAuth.PuerixVerificationResult) -> Swift.Void)
+  #endif
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class PuerixVerificationResult : ObjectiveC.NSObject {
+  @objc final public let sessionId: Swift.String
+  @objc final public let status: Swift.String
+  @objc final public let isApproved: Swift.Bool
+  @objc final public let errorMessage: Swift.String?
+  @objc deinit
+}
+extension PuerixAuth.PuerixEnvironment : Swift.Equatable {}
+extension PuerixAuth.PuerixEnvironment : Swift.Hashable {}
+extension PuerixAuth.PuerixEnvironment : Swift.RawRepresentable {}
+extension PuerixAuth.PuerixLivenessStep : Swift.Equatable {}
+extension PuerixAuth.PuerixLivenessStep : Swift.Hashable {}
+extension PuerixAuth.PuerixLivenessStep : Swift.RawRepresentable {}
