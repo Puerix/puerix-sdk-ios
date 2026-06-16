@@ -411,6 +411,41 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) PuerixSDK * 
 - (void)dispose;
 @end
 
+@class UIColor;
+/// Visual theme applied to the native Puerix flows.
+/// Every color defaults to the canonical Puerix brand palette, so when the
+/// Flutter layer sends no theme — or only some colors — the standard Puerix
+/// look is preserved. Host apps may override any subset to match their own
+/// visual identity.
+/// <code>active</code> holds the theme currently in effect; it is set during
+/// <code>initialize</code> and read by the native UI components.
+SWIFT_CLASS("_TtC10PuerixAuth11PuerixTheme")
+@interface PuerixTheme : NSObject
+/// Primary brand color — primary actions and key UI accents.
+@property (nonatomic, readonly, strong) UIColor * _Nonnull primary;
+/// Accent color — highlights and in-progress feedback (e.g. “detecting”).
+@property (nonatomic, readonly, strong) UIColor * _Nonnull accent;
+/// Success color — completed steps and approved/OK states.
+@property (nonatomic, readonly, strong) UIColor * _Nonnull success;
+/// Text color — used for dark labels over light surfaces.
+@property (nonatomic, readonly, strong) UIColor * _Nonnull text;
+/// Background color — used for light surfaces.
+@property (nonatomic, readonly, strong) UIColor * _Nonnull background;
+- (nonnull instancetype)initWithPrimary:(UIColor * _Nonnull)primary accent:(UIColor * _Nonnull)accent success:(UIColor * _Nonnull)success text:(UIColor * _Nonnull)text background:(UIColor * _Nonnull)background OBJC_DESIGNATED_INITIALIZER;
+/// Canonical Puerix brand palette.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong, getter=default) PuerixTheme * _Nonnull default_;)
++ (PuerixTheme * _Nonnull)default SWIFT_WARN_UNUSED_RESULT;
+/// The theme currently in effect. Defaults to the Puerix palette.
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) PuerixTheme * _Nonnull active;)
++ (PuerixTheme * _Nonnull)active SWIFT_WARN_UNUSED_RESULT;
++ (void)setActive:(PuerixTheme * _Nonnull)value;
+/// Builds a theme from the map sent by the Flutter layer, falling back to
+/// the matching <code>default</code> color for any missing or unparseable entry.
++ (PuerixTheme * _Nonnull)fromMap:(NSDictionary<NSString *, id> * _Nullable)map SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 /// Result from the full verification flow.
 SWIFT_CLASS("_TtC10PuerixAuth24PuerixVerificationResult")
 @interface PuerixVerificationResult : NSObject

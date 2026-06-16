@@ -85,6 +85,20 @@ import _SwiftConcurrencyShims
   #endif
   @objc deinit
 }
+@objc final public class PuerixTheme : ObjectiveC.NSObject {
+  @objc final public let primary: UIKit.UIColor
+  @objc final public let accent: UIKit.UIColor
+  @objc final public let success: UIKit.UIColor
+  @objc final public let text: UIKit.UIColor
+  @objc final public let background: UIKit.UIColor
+  @objc public init(primary: UIKit.UIColor, accent: UIKit.UIColor, success: UIKit.UIColor, text: UIKit.UIColor, background: UIKit.UIColor)
+  @objc public static let `default`: PuerixAuth.PuerixTheme
+  @objc public static var active: PuerixAuth.PuerixTheme
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func from(map: [Swift.String : Any]?) -> PuerixAuth.PuerixTheme
+  #endif
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers @objc public class PuerixVerificationResult : ObjectiveC.NSObject {
   @objc final public let sessionId: Swift.String
   @objc final public let status: Swift.String

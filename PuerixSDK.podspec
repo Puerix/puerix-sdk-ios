@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PuerixSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Puerix SDK — age verification with liveness detection and document capture.'
   s.description      = <<-DESC
     Native iOS SDK for age verification.

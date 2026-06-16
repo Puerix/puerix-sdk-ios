@@ -2624,6 +2624,644 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PuerixAuth"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PuerixTheme",
+        "printedName": "PuerixTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "primary",
+            "printedName": "primary",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(py)primary",
+            "mangledName": "$s10PuerixAuth0A5ThemeC7primarySo7UIColorCvp",
+            "moduleName": "PuerixAuth",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)primary",
+                "mangledName": "$s10PuerixAuth0A5ThemeC7primarySo7UIColorCvg",
+                "moduleName": "PuerixAuth",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accent",
+            "printedName": "accent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(py)accent",
+            "mangledName": "$s10PuerixAuth0A5ThemeC6accentSo7UIColorCvp",
+            "moduleName": "PuerixAuth",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)accent",
+                "mangledName": "$s10PuerixAuth0A5ThemeC6accentSo7UIColorCvg",
+                "moduleName": "PuerixAuth",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(py)success",
+            "mangledName": "$s10PuerixAuth0A5ThemeC7successSo7UIColorCvp",
+            "moduleName": "PuerixAuth",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)success",
+                "mangledName": "$s10PuerixAuth0A5ThemeC7successSo7UIColorCvg",
+                "moduleName": "PuerixAuth",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(py)text",
+            "mangledName": "$s10PuerixAuth0A5ThemeC4textSo7UIColorCvp",
+            "moduleName": "PuerixAuth",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)text",
+                "mangledName": "$s10PuerixAuth0A5ThemeC4textSo7UIColorCvg",
+                "moduleName": "PuerixAuth",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(py)background",
+            "mangledName": "$s10PuerixAuth0A5ThemeC10backgroundSo7UIColorCvp",
+            "moduleName": "PuerixAuth",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)background",
+                "mangledName": "$s10PuerixAuth0A5ThemeC10backgroundSo7UIColorCvg",
+                "moduleName": "PuerixAuth",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(primary:accent:success:text:background:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PuerixTheme",
+                "printedName": "PuerixAuth.PuerixTheme",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)initWithPrimary:accent:success:text:background:",
+            "mangledName": "$s10PuerixAuth0A5ThemeC7primary6accent7success4text10backgroundACSo7UIColorC_A4Jtcfc",
+            "moduleName": "PuerixAuth",
+            "objc_name": "initWithPrimary:accent:success:text:background:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PuerixTheme",
+                "printedName": "PuerixAuth.PuerixTheme",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(cpy)default",
+            "mangledName": "$s10PuerixAuth0A5ThemeC7defaultACvpZ",
+            "moduleName": "PuerixAuth",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PuerixTheme",
+                    "printedName": "PuerixAuth.PuerixTheme",
+                    "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(cm)default",
+                "mangledName": "$s10PuerixAuth0A5ThemeC7defaultACvgZ",
+                "moduleName": "PuerixAuth",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "active",
+            "printedName": "active",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PuerixTheme",
+                "printedName": "PuerixAuth.PuerixTheme",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(cpy)active",
+            "mangledName": "$s10PuerixAuth0A5ThemeC6activeACvpZ",
+            "moduleName": "PuerixAuth",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PuerixTheme",
+                    "printedName": "PuerixAuth.PuerixTheme",
+                    "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(cm)active",
+                "mangledName": "$s10PuerixAuth0A5ThemeC6activeACvgZ",
+                "moduleName": "PuerixAuth",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PuerixTheme",
+                    "printedName": "PuerixAuth.PuerixTheme",
+                    "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(cm)setActive:",
+                "mangledName": "$s10PuerixAuth0A5ThemeC6activeACvsZ",
+                "moduleName": "PuerixAuth",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10PuerixAuth0A5ThemeC6activeACvMZ",
+                "mangledName": "$s10PuerixAuth0A5ThemeC6activeACvMZ",
+                "moduleName": "PuerixAuth",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "from",
+            "printedName": "from(map:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PuerixTheme",
+                "printedName": "PuerixAuth.PuerixTheme",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(cm)fromMap:",
+            "mangledName": "$s10PuerixAuth0A5ThemeC4from3mapACSDySSypGSg_tFZ",
+            "moduleName": "PuerixAuth",
+            "static": true,
+            "objc_name": "fromMap:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PuerixTheme",
+                "printedName": "PuerixAuth.PuerixTheme",
+                "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme(im)init",
+            "mangledName": "$s10PuerixAuth0A5ThemeCACycfc",
+            "moduleName": "PuerixAuth",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PuerixAuth@objc(cs)PuerixTheme",
+        "mangledName": "$s10PuerixAuth0A5ThemeC",
+        "moduleName": "PuerixAuth",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3102,251 +3740,6 @@
       "value": "1600"
     },
     {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1921,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1924,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1936,
-      "length": 3,
-      "value": "125"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1940,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1951,
-      "length": 3,
-      "value": "160"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1955,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1967,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2023,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2026,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2038,
-      "length": 3,
-      "value": "192"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2042,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2053,
-      "length": 3,
-      "value": "191"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2057,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2069,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2123,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2126,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2138,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2142,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2153,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2157,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2169,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2223,
-      "length": 2,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2226,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2238,
-      "length": 2,
-      "value": "59"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2241,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2252,
-      "length": 2,
-      "value": "93"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2255,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2267,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2320,
-      "length": 3,
-      "value": "244"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2324,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2336,
-      "length": 3,
-      "value": "247"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2340,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2351,
-      "length": 3,
-      "value": "246"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2355,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2367,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
       "kind": "FloatLiteral",
       "offset": 530,
@@ -3487,783 +3880,6 @@
       "value": "10"
     },
     {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 8759,
-      "length": 31,
-      "value": "\"Posicione seu rosto no óvalo\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8866,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8990,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 9028,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9180,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9183,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9195,
-      "length": 3,
-      "value": "192"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9199,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9210,
-      "length": 3,
-      "value": "191"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9214,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9226,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9381,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9384,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9396,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9400,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9411,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9415,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9427,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11078,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11136,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11139,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11151,
-      "length": 3,
-      "value": "192"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11155,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11166,
-      "length": 3,
-      "value": "191"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11170,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 11182,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11251,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11254,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11266,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11270,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11281,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11285,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11297,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 12996,
-      "length": 4,
-      "value": "0.65"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 13240,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13292,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13474,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13585,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13686,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13768,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 13833,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 13915,
-      "length": 5,
-      "value": "\"✓\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13973,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13976,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13988,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 13992,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14003,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14007,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14019,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14092,
-      "length": 2,
-      "value": "72"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14197,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14266,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14433,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14540,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14683,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 14784,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 14822,
-      "length": 31,
-      "value": "\"Posicione seu rosto no óvalo\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15016,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15125,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 15339,
-      "length": 4,
-      "value": "0.35"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15384,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15449,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15546,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15651,
-      "length": 13,
-      "value": "\"Puerix Auth\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 15711,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 15798,
-      "length": 3,
-      "value": "0.9"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 15866,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15943,
-      "length": 5,
-      "value": "\"✕\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16079,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 16163,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16420,
-      "length": 2,
-      "value": "16"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16523,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16590,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16686,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16864,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 16962,
-      "length": 3,
-      "value": "-12"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17235,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17748,
-      "length": 3,
-      "value": "-48"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17842,
-      "length": 2,
-      "value": "32"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17937,
-      "length": 3,
-      "value": "-32"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18034,
-      "length": 3,
-      "value": "-20"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18140,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18209,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18279,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19138,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19216,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19221,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19314,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19364,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19465,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19468,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19480,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19484,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19495,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19499,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19511,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 19649,
-      "length": 3,
-      "value": "0.3"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 20419,
-      "length": 27,
-      "value": "\"Verificação concluída!\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 20479,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20514,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20601,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20655,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20658,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20670,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20674,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20685,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20689,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20701,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 20760,
-      "length": 3,
-      "value": "0.4"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20795,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
-      "kind": "FloatLiteral",
-      "offset": 20856,
-      "length": 3,
-      "value": "1.2"
-    },
-    {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixOCR.swift",
       "kind": "StringLiteral",
       "offset": 365,
@@ -4299,261 +3915,51 @@
       "value": "3"
     },
     {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1185,
-      "length": 2,
-      "value": "44"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1188,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1200,
-      "length": 3,
-      "value": "125"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1204,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1215,
-      "length": 3,
-      "value": "160"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1219,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1231,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1276,
-      "length": 2,
-      "value": "97"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1279,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1291,
-      "length": 3,
-      "value": "192"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1295,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1306,
-      "length": 3,
-      "value": "191"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1310,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1322,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1365,
-      "length": 2,
-      "value": "70"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1368,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1380,
-      "length": 3,
-      "value": "140"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1384,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1395,
-      "length": 3,
-      "value": "139"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1399,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1411,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1454,
-      "length": 2,
-      "value": "26"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1457,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1469,
-      "length": 2,
-      "value": "59"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1472,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1483,
-      "length": 2,
-      "value": "93"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1486,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixTheme.swift",
+      "kind": "StringLiteral",
       "offset": 1498,
-      "length": 1,
-      "value": "1"
+      "length": 9,
+      "value": "\"#2C7DA0\""
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1567,
+      "length": 9,
+      "value": "\"#61C0BF\""
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1642,
+      "length": 9,
+      "value": "\"#468C8B\""
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1710,
+      "length": 9,
+      "value": "\"#1A3B5D\""
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixTheme.swift",
+      "kind": "StringLiteral",
+      "offset": 1762,
+      "length": 9,
+      "value": "\"#F4F7F6\""
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1540,
-      "length": 3,
-      "value": "244"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1544,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1556,
-      "length": 3,
-      "value": "247"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1560,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1571,
-      "length": 3,
-      "value": "246"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1575,
-      "length": 3,
-      "value": "255"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1587,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2053,
+      "offset": 1986,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2165,
+      "offset": 2098,
       "length": 1,
       "value": "3"
     }
