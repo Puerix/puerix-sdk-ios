@@ -392,8 +392,8 @@ SWIFT_CLASS("_TtC10PuerixAuth28PuerixLivenessViewController")
 /// PuerixSDK.shared.initialize(config: PuerixConfig(apiKey: "YOUR_KEY"))
 ///
 /// // From any UIViewController:
-/// PuerixSDK.shared.startLiveness(from: self) { result in
-///     print("Liveness complete:", result.isComplete)
+/// PuerixSDK.shared.startVerification(from: self, subject: "user-123") { result in
+///     print("Approved:", result.isApproved)
 /// }
 ///
 /// \endcode

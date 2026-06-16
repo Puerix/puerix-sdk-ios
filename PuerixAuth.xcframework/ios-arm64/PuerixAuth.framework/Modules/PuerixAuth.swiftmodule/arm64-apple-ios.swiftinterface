@@ -79,7 +79,6 @@ import _SwiftConcurrencyShims
   }
   @objc public func initialize(config: PuerixAuth.PuerixConfig)
   @objc public func dispose()
-  public func startLiveness(from viewController: UIKit.UIViewController, steps: [PuerixAuth.PuerixLivenessStep] = PuerixLivenessStep.defaultSteps, stepDuration: Foundation.TimeInterval = 3, completion: @escaping (PuerixAuth.PuerixLivenessResult) -> Swift.Void)
   #if compiler(>=5.3) && $NonescapableTypes
   public func startVerification(from viewController: UIKit.UIViewController, subject: Swift.String, ageLimit: Swift.Int = 18, steps: [PuerixAuth.PuerixLivenessStep] = PuerixLivenessStep.defaultSteps, stepDuration: Foundation.TimeInterval = 3, callbackUrl: Swift.String? = nil, cancelUrl: Swift.String? = nil, completion: @escaping (PuerixAuth.PuerixVerificationResult) -> Swift.Void)
   #endif

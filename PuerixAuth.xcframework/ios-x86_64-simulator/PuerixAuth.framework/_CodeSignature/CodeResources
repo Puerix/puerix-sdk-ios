@@ -58,31 +58,31 @@
 		</data>
 		<key>Headers/PuerixAuth-Swift.h</key>
 		<data>
-		woCdeMfdSnblsR8ZDPgBQubPuPo=
+		Yosj+rBctU6i7Y54d6HJuReEl4w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7WovNtT971NpU4gNrX+rZMqDEBI=
+		16X1PV0T55eOw2kymsYQpgxV7fc=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		xwXuFLFzuKIOxVIYrOzL4g/Wlsk=
+		0akuIMiD3dggHaOuxDhQ+8WH+do=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		iwpX9eINBgVALMkWBEIAhe8POkk=
+		dDkNajt+AqgqjEn/PqaV91schMQ=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/55QihHOc9rEGZVwuL+ShojAxAY=
+		c7fxbSFsBDbLg17Altl1d8+9Kms=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iwpX9eINBgVALMkWBEIAhe8POkk=
+		dDkNajt+AqgqjEn/PqaV91schMQ=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yQrax6Kv7CSqbU8UwtVooa2Lgh0=
+		PJMBKaT8DiLsgUhyIFNJX1Dw+mU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -190,42 +190,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lYc211TWtWVFYiem9d+vRnw9lfHFEofTBEuc3zAQ7GA=
+			nYpsURAkGRPof6vC5IlHzVzI6KMEUr4bGjBabyLS0FU=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p7oKtmKaiafmwAG6D9/GRsMWSEe470srIrawO3S9Hp0=
+			r39G1deG+RszW0TL0gyT8xLlT3R72nr7bWxplJon2F8=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vve2TqxNl1OneORSTMEYycMfhbpREXK6gH3m937v6kk=
+			pMEJIycUaT6cNa9HUKv9a/nGpxttCswLvl/BNFgkHz0=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGwdxCJaJbiLjVEDB1RDylsFuOkZna+XzlodqO6J/Yk=
+			Yct2xRcaUa3yor7wr3y63i0R1tfENZlOmWn66e06Tog=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vve2TqxNl1OneORSTMEYycMfhbpREXK6gH3m937v6kk=
+			pMEJIycUaT6cNa9HUKv9a/nGpxttCswLvl/BNFgkHz0=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jiPol8HETBo4noKzbadXcdEsBJirBfY1yjYisL4TEqU=
+			gTeYEzmDW76LbrIMxGY5J/PbCAls93hHwyyzjxhOdD4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
