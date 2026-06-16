@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-iOS%2013%2B-blue" />
   <img src="https://img.shields.io/badge/swift-5.7-orange" />
-  <img src="https://img.shields.io/badge/version-0.1.1-green" />
+  <img src="https://img.shields.io/badge/version-0.2.0-green" />
   <img src="https://img.shields.io/badge/license-Proprietary-red" />
 </p>
 
@@ -34,7 +34,7 @@
 
 ```ruby
 # Podfile
-pod 'PuerixSDK', :git => 'https://github.com/Puerix/puerix-sdk-ios.git', :tag => '0.1.1'
+pod 'PuerixSDK', :git => 'https://github.com/Puerix/puerix-sdk-ios.git', :tag => '0.2.0'
 ```
 
 Depois execute:
@@ -93,19 +93,6 @@ PuerixSDK.shared.startVerification(
         if let error = result.errorMessage {
             print("Erro: \(error)")
         }
-    }
-}
-```
-
-### 3. Apenas liveness (sem API)
-
-Se quiser usar só a detecção facial sem integração com a API:
-
-```swift
-PuerixSDK.shared.startLiveness(from: viewController) { result in
-    if result.isComplete {
-        print("Capturas: \(result.captures.keys)")
-        // result.captureData["lookAtCamera"] → Data (JPEG)
     }
 }
 ```
@@ -186,15 +173,6 @@ func startVerification(
 | `.turnHeadLeft` | Virar a cabeça para a esquerda |
 | `.turnHeadRight` | Virar a cabeça para a direita |
 
-### PuerixLivenessResult
-
-| Propriedade | Tipo | Descrição |
-|-------------|------|-----------|
-| `isComplete` | `Bool` | Se completou todos os passos |
-| `isApproved` | `Bool` | Se o backend aprovou |
-| `captures` | `[String: UIImage]` | Fotos capturadas por step |
-| `captureData` | `[String: Data]` | JPEG data por step |
-
 ---
 
 ## Fluxo de verificação
@@ -249,7 +227,10 @@ Adicione ao `Info.plist`:
 
 ## Changelog
 
-### 0.1.1
+> As versões 0.1.x foram retiradas de distribuição por motivos de segurança. Use sempre 0.2.0+.
+
+### 0.2.0
+- **Removida a API pública de liveness standalone** (`startLiveness`) — a verificação facial roda apenas dentro do fluxo de verificação; o app integrador não recebe mais as fotos do usuário. Use `startVerification`.
 - **Tema personalizável** via `PuerixTheme` — cores das telas nativas adequáveis à identidade visual do app (paleta Puerix como padrão)
 - Correção de layout: botão de fechar (`✕`) sobreposto à logo na tela de verificação
 
