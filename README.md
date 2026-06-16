@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-iOS%2013%2B-blue" />
   <img src="https://img.shields.io/badge/swift-5.7-orange" />
-  <img src="https://img.shields.io/badge/version-0.1.0-green" />
+  <img src="https://img.shields.io/badge/version-0.1.1-green" />
   <img src="https://img.shields.io/badge/license-Proprietary-red" />
 </p>
 
@@ -24,6 +24,7 @@
 - **OCR** — Extração automática do CPF via reconhecimento de texto
 - **Integração com API** — Sessão, upload de frames, validação de documento
 - **UI nativa** — Telas prontas em UIKit, com branding Puerix
+- **Tema personalizável** — Adeque as cores das telas à identidade visual do seu app (ver [Customização visual](#customização-visual))
 
 ---
 
@@ -33,7 +34,7 @@
 
 ```ruby
 # Podfile
-pod 'PuerixSDK', :git => 'https://github.com/Puerix/puerix-sdk-ios.git', :tag => '0.1.0'
+pod 'PuerixSDK', :git => 'https://github.com/Puerix/puerix-sdk-ios.git', :tag => '0.1.1'
 ```
 
 Depois execute:
@@ -108,6 +109,36 @@ PuerixSDK.shared.startLiveness(from: viewController) { result in
     }
 }
 ```
+
+---
+
+## Customização visual
+
+As telas nativas usam a **paleta Puerix por padrão**. Para adequá-las à identidade visual do seu app, defina `PuerixTheme.active` **antes** do `initialize`. Use `PuerixTheme.default` para reaproveitar as cores que não quiser sobrescrever:
+
+```swift
+PuerixTheme.active = PuerixTheme(
+    primary:    UIColor(red: 0.85, green: 0.11, blue: 0.38, alpha: 1), // ações primárias
+    accent:     UIColor(red: 1.00, green: 0.43, blue: 0.00, alpha: 1), // destaque / "detectando"
+    success:    UIColor(red: 0.00, green: 0.78, blue: 0.33, alpha: 1), // sucesso / step OK
+    text:       PuerixTheme.default.text,        // mantém o padrão Puerix
+    background: PuerixTheme.default.background    // mantém o padrão Puerix
+)
+
+PuerixSDK.shared.initialize(config: PuerixConfig(apiKey: "SUA_API_KEY"))
+```
+
+### Tokens de cor
+
+| Token | Default Puerix | Onde aparece |
+|-------|----------------|--------------|
+| `primary` | `#2C7DA0` | Ações primárias, captura de documento |
+| `accent` | `#61C0BF` | Borda "detectando", destaques |
+| `success` | `#468C8B` | Borda OK, steps concluídos, textos de sucesso |
+| `text` | `#1A3B5D` | Labels escuros sobre fundo claro |
+| `background` | `#F4F7F6` | Fundos claros |
+
+> Sem definir `PuerixTheme.active`, as telas mantêm o visual Puerix padrão.
 
 ---
 
@@ -217,6 +248,10 @@ Adicione ao `Info.plist`:
 ---
 
 ## Changelog
+
+### 0.1.1
+- **Tema personalizável** via `PuerixTheme` — cores das telas nativas adequáveis à identidade visual do app (paleta Puerix como padrão)
+- Correção de layout: botão de fechar (`✕`) sobreposto à logo na tela de verificação
 
 ### 0.1.0
 - Liveness detection (3 steps: olhar, virar esquerda, virar direita)
