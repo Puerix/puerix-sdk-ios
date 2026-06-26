@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		yDYX8DcC6YkbZD/MttP5hUy1WLw=
+		apOy3IwTEKXv0jorWQTqsjlx1/o=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uNdMhgZ5jVI7AVleGLU0xjSfN44=
+		Xdz9FPXAw6J7GVzQUVg7jAfu/hw=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yDYX8DcC6YkbZD/MttP5hUy1WLw=
+		apOy3IwTEKXv0jorWQTqsjlx1/o=
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HDHz1KPchEgoGw869t/hJ+Pwk9Y=
+		Hfe0A08Mqoy1xsHZLmUBYt2IrpQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f61my4Zo65aLuyDtA0xl1J7Eztqot7fJhy6OQEgZCZ8=
+			GdqZogFcesTTN3fHrqvZTQMYMNKL6YOoQuE5+KURiDk=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -102,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+yrBY2SA/Dgi1Wib7OsaOfIIgs/7Zzy/1s0+FqpMajY=
+			/yyEzcQPO9uzVuVRStw8uddCLIg9Rs2k7ZkDWccKM58=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f61my4Zo65aLuyDtA0xl1J7Eztqot7fJhy6OQEgZCZ8=
+			GdqZogFcesTTN3fHrqvZTQMYMNKL6YOoQuE5+KURiDk=
 			</data>
 		</dict>
 		<key>Modules/PuerixAuth.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zcpkWPP/q04F/wkCuP1NFUV8jj4XlFo+bq9o5GFLWZg=
+			oTVaedxcEd6p2Sebv6w+8ye7dWJFgQ73wlnfnaW24aI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

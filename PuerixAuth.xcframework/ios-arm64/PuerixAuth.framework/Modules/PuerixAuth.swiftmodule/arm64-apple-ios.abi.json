@@ -3724,37 +3724,44 @@
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
       "kind": "IntegerLiteral",
-      "offset": 526,
-      "length": 3,
-      "value": "320"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
-      "kind": "IntegerLiteral",
-      "offset": 576,
-      "length": 2,
-      "value": "65"
-    },
-    {
-      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
-      "kind": "IntegerLiteral",
-      "offset": 625,
+      "offset": 730,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
       "kind": "IntegerLiteral",
-      "offset": 673,
+      "offset": 782,
+      "length": 3,
+      "value": "320"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 2,
+      "value": "65"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
+      "kind": "IntegerLiteral",
+      "offset": 881,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
+      "kind": "IntegerLiteral",
+      "offset": 929,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
       "kind": "IntegerLiteral",
-      "offset": 721,
-      "length": 2,
-      "value": "10"
+      "offset": 1242,
+      "length": 3,
+      "value": "120"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessResult.swift",
