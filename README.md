@@ -229,6 +229,10 @@ Adicione ao `Info.plist`:
 > As versões 0.1.x foram retiradas de distribuição por motivos de segurança. Use sempre 0.2.0+.
 
 ### 0.2.0
+- **Detecção facial migrada para o Apple Vision** (sem Google ML Kit) — o binário passa a incluir o slice de **simulador arm64**, rodando em simuladores Apple Silicon, incluindo **iOS 26 / iPhone 17**, sem o workaround `EXCLUDED_ARCHS`. O SPM funciona sem dependências externas.
+- **Botão de fechar (`✕`) na primeira tela** — permite voltar ao app a qualquer momento, inclusive antes de iniciar a verificação.
+- **Verificação de qualidade da foto do documento mais robusta** — fotos desfocadas são rejeitadas com muito mais precisão (medida de foco por variância do Laplaciano).
+- **Correção de crash da câmera de documento** em ciclos repetidos de captura/nova tentativa.
 - **Removida a API pública de liveness standalone** (`startLiveness`) — a verificação facial roda apenas dentro do fluxo de verificação; o app integrador não recebe mais as fotos do usuário. Use `startVerification`.
 - **Tema personalizável** via `PuerixTheme` — cores das telas nativas adequáveis à identidade visual do app (paleta Puerix como padrão)
 - Correção de layout: botão de fechar (`✕`) sobreposto à logo na tela de verificação
