@@ -724,15 +724,8 @@
       },
       {
         "kind": "Import",
-        "name": "MLKitFaceDetection",
-        "printedName": "MLKitFaceDetection",
-        "declKind": "Import",
-        "moduleName": "PuerixAuth"
-      },
-      {
-        "kind": "Import",
-        "name": "MLKitVision",
-        "printedName": "MLKitVision",
+        "name": "Vision",
+        "printedName": "Vision",
         "declKind": "Import",
         "moduleName": "PuerixAuth"
       },
@@ -3674,24 +3667,59 @@
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1734,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 530,
+      "offset": 2028,
+      "length": 4,
+      "value": "0.12"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 2075,
+      "length": 4,
+      "value": "0.30"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
+      "kind": "FloatLiteral",
+      "offset": 2517,
       "length": 4,
       "value": "0.40"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 584,
+      "offset": 2571,
       "length": 4,
       "value": "0.80"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
       "kind": "FloatLiteral",
-      "offset": 639,
+      "offset": 2626,
       "length": 4,
       "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3661,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixFaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7878,
+      "length": 3,
+      "value": "180"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixImageQuality.swift",
@@ -3801,14 +3829,14 @@
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1538,
+      "offset": 1542,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixLivenessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2149,
+      "offset": 2153,
       "length": 2,
       "value": "10"
     },

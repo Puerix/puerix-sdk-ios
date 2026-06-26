@@ -51,10 +51,9 @@ No Xcode: **File > Add Package Dependencies** e insira:
 https://github.com/Puerix/puerix-sdk-ios.git
 ```
 
-> **Nota:** Google ML Kit não suporta SPM. Instale separadamente via CocoaPods:
-> ```ruby
-> pod 'GoogleMLKit/FaceDetection', '~> 6.0'
-> ```
+> **Nota:** o SDK não tem dependências de terceiros — a detecção facial e o OCR usam
+> o framework **Vision** da Apple. Não é preciso instalar nada além do pacote, e o
+> binário roda em simuladores Apple Silicon (incl. iOS 26 / iPhone 17) sem workarounds.
 
 ---
 

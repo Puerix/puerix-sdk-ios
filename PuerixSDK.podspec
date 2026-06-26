@@ -19,12 +19,8 @@ Pod::Spec.new do |s|
   # Closed-source binary — no Swift source included
   s.vendored_frameworks = 'PuerixAuth.xcframework'
 
-  # Runtime dependency
-  s.dependency 'GoogleMLKit/FaceDetection', '~> 6.0'
-
+  # No third-party runtime dependencies — face detection + OCR use Apple Vision.
+  # The xcframework ships an arm64 iOS Simulator slice, so consumers run on Apple
+  # Silicon simulators (incl. iOS 26 / iPhone 17) with no EXCLUDED_ARCHS workaround.
   s.frameworks = 'AVFoundation', 'UIKit', 'Vision', 'CoreGraphics'
-
-  s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386',
-  }
 end

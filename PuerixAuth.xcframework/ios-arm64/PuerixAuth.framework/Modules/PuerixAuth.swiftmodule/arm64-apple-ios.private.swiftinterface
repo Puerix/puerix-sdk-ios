@@ -5,8 +5,6 @@
 import AVFoundation
 import CoreGraphics
 import Foundation
-import MLKitFaceDetection
-import MLKitVision
 import Swift
 import UIKit
 import Vision

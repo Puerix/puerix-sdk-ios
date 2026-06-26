@@ -1,4 +1,0 @@
-framework module PuerixAuth {
-  header "PuerixAuth-Swift.h"
-  requires objc
-}
