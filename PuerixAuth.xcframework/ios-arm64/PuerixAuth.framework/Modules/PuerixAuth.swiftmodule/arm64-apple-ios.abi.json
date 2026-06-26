@@ -3632,36 +3632,43 @@
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 28,
+      "value": "\"com.puerix.document.camera\""
+    },
+    {
+      "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1294,
+      "offset": 1640,
       "length": 5,
       "value": "1.586"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1343,
+      "offset": 1689,
       "length": 4,
       "value": "0.88"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1392,
+      "offset": 1738,
       "length": 3,
       "value": "110"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1443,
+      "offset": 1789,
       "length": 3,
       "value": "156"
     },
     {
       "filePath": "\/Users\/thalissonmelo\/StudioProjects\/puerix-sdk\/build\/project\/Sources\/PuerixDocumentCaptureViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1486,
+      "offset": 1832,
       "length": 4,
       "value": "1600"
     },
